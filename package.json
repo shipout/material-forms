@@ -1,7 +1,7 @@
 {
-  "name": "forms",
+  "name": "material-forms",
   "version": "1.0.0",
-  "description": "A nice greeter",
+  "description": "Nice inputs and forms based on react and material-ui",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
