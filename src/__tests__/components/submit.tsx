@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonSubmit from '../../components/submit'
+import { ButtonSubmit } from '../../components/submit'
 import { shallow, mount } from 'enzyme'
 import * as enzyme from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
