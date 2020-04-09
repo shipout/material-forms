@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput should render multiline 1`] = `
+<InputContainer
+  inputType="textarea"
+  label="label"
+  valid={true}
+>
+  <WithStyles(ForwardRef(TextField))
+    className="form-input"
+    fullWidth={true}
+    margin="normal"
+    multiline={true}
+    onChange={[Function]}
+    rows={3}
+    rowsMax={6}
+    type="text"
+  />
+</InputContainer>
+`;
+
+exports[`TextInput should render not valid 1`] = `
+<InputContainer
+  inputType="input"
+  label="label"
+  valid={true}
+>
+  <WithStyles(ForwardRef(TextField))
+    className="form-input"
+    fullWidth={true}
+    margin="normal"
+    onChange={[Function]}
+    required={true}
+    type="text"
+  />
+</InputContainer>
+`;
+
+exports[`TextInput should render valid 1`] = `
+<InputContainer
+  inputType="input"
+  label="label"
+  valid={true}
+>
+  <WithStyles(ForwardRef(TextField))
+    className="form-input"
+    fullWidth={true}
+    margin="normal"
+    onChange={[Function]}
+    type="text"
+  />
+</InputContainer>
+`;

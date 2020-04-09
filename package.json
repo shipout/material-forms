@@ -1,6 +1,6 @@
 {
   "name": "material-forms",
-  "version": "1.0.105",
+  "version": "1.0.106",
   "description": "Nice inputs and forms based on react and material-ui",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,8 +34,8 @@
     "@types/node": "^13.11.1",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
-    "@types/react-test-renderer": "^16.9.2",
     "@types/react-router-dom": "^5.1.3",
+    "@types/react-test-renderer": "^16.9.2",
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
@@ -45,9 +45,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-test-renderer": "^16.13.1",
-    "react-router-dom": "^5.1.2",
-    "typescript": "^3.8.3",
-    "ts-jest": "^25.3.1"
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-router-dom": "^5.1.2"
+  }
 }
