@@ -11,7 +11,7 @@ interface IProps {
   rounded?: boolean
 }
 
-class ButtonSubmit extends React.Component<IProps, any> {
+export class ButtonSubmit extends React.Component<IProps, any> {
   private renderButtonContents() {
     if (this.props.loading) {
       return <CircularProgress className='loader' size={24} />
@@ -38,5 +38,3 @@ class ButtonSubmit extends React.Component<IProps, any> {
     )
   }
 }
-
-export ButtonSubmit
