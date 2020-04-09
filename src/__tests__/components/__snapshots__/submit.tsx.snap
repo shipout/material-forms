@@ -1,18 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ButtonSubmit should have handleClick property 1`] = `
-<WithStyles(ForwardRef(Button))
-  className="button 
-         
-         
-        "
-  onClick={[Function]}
->
-  TEST
-</WithStyles(ForwardRef(Button))>
-`;
-
-exports[`ButtonSubmit should have handleClick property 11 1`] = `
+exports[`ButtonSubmit should have exec handleClick on click 1`] = `
 <ButtonSubmit
   handleClick={[Function]}
 >
@@ -158,24 +146,24 @@ exports[`ButtonSubmit should have handleClick property 11 1`] = `
 </ButtonSubmit>
 `;
 
-exports[`ButtonSubmit should render correctly in "debug" mode 1`] = `
-<WithStyles(ForwardRef(Button))
-  className="button 
-         
-         
-        "
->
-  TEST
-</WithStyles(ForwardRef(Button))>
-`;
-
-exports[`ButtonSubmit should render correctly in "debug" mode 2`] = `
+exports[`ButtonSubmit should have handleClick property 1`] = `
 <WithStyles(ForwardRef(Button))
   className="button 
          
          
         "
   onClick={[Function]}
+>
+  TEST
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`ButtonSubmit should render correctly in "debug" mode 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="button 
+         
+         
+        "
 >
   TEST
 </WithStyles(ForwardRef(Button))>
