@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonSubmit should render correctly in "debug" mode 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="button 
+         
+         
+        "
+>
+  TEST
+</WithStyles(ForwardRef(Button))>
+`;
+
+exports[`ButtonSubmit should render correctly in "debug" mode 2`] = `
+<WithStyles(ForwardRef(Button))
+  className="button 
+         
+         
+        "
+  onClick={[Function]}
+>
+  TEST
+</WithStyles(ForwardRef(Button))>
+`;

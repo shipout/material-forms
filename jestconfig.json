@@ -1,8 +1,11 @@
 {
+  "roots": ["<rootDir>/src"],
   "transform": {
     "^.+\\.(t|j)sx?$": "ts-jest"
   },
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
   "transformIgnorePatterns": ["<rootDir>/dist/.*"],
   "testRegex": "(/src/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "moduleDirectories": ["node_modules"],
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
 }
