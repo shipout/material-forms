@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonLink should render correctly in "debug" mode 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="button  "
+  color="default"
+  variant="text"
+>
+  <Link
+    to="url"
+  >
+    text
+  </Link>
+</WithStyles(ForwardRef(Button))>
+`;
