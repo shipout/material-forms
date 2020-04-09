@@ -39,4 +39,4 @@ class ButtonSubmit extends React.Component<IProps, any> {
   }
 }
 
-export default ButtonSubmit
+export ButtonSubmit
